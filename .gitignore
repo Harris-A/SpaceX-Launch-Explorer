@@ -1,2 +1,13 @@
 # ignore idea directory
 /.idea/
+
+# dependencies
+/node_modules
+
+#production
+/build
+
+#MISC
+.DS_Store
+
+/dist
