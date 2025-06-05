@@ -1,0 +1,29 @@
+{
+  "name": "spacex-launch-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harris-A/SpaceX-Launch-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Harris-A/SpaceX-Launch-Tracker/issues"
+  },
+  "homepage": "https://github.com/Harris-A/SpaceX-Launch-Tracker#readme",
+  "devDependencies": {
+    "sass": "^1.89.1",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  }
+}
