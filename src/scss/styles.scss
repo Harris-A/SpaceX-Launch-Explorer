@@ -9,23 +9,22 @@ body {
     margin: 0;
     padding: 0;
 }
-
-header {
+.hero {
+    background-image: url('../assets/rocket.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 2rem 1rem;
-    background: #0b0c10;
-    border-bottom: 2px solid #45a29e;
+    color: #fff;
 }
-
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-header p {
-    font-size: 1.2rem;
-    color: #c5c6c7;
-    text-align: center;
+.hero-text {
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .launch-card {
@@ -62,22 +61,8 @@ header p {
     font-weight: bold;
 }*/
 
-a {
-    color: #66fcf1;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 0.5rem;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 /* Responsive Layout */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
     .launch-card {
         padding: 1rem;
     }
@@ -85,7 +70,7 @@ a:hover {
 
 @media (max-width: 480px) {
     .launch-card h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .launch-card p {
         font-size: 0.95rem;
